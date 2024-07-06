@@ -1,0 +1,306 @@
+MASSO G3 Touch
+Serial No: G3-16397
+Hardware: v3.07
+Core: v2.04
+Software: 5-Axis, v5.07
+
+Settings file format: v2.30
+
+==========General Settings==========
+- Machine units: mm
+- Machine bed orientation: Standard
+- Load 'autoload.nc' on power up:
+- Disable Soft Limits: Ticked
+- Disable Hard Limits: Ticked
+- Enable cycle start on door close:
+- Limit maximum feedrate:
+
+==========Homing Settings==========
+- Seq 1: X: 1 Y: 1 Z: 1 A: 0 B: 0
+- Seq 2: X: 0 Y: 0 Z: 0 A: 0 B: 0
+- Seq 3: X: 0 Y: 0 Z: 0 A: 0 B: 0
+- Seq 4: X: 0 Y: 0 Z: 0 A: 0 B: 0
+- Seq 5: X: 0 Y: 0 Z: 0 A: 0 B: 0
+
+- X-Axis Direction Invert:
+- Y-Axis Direction Invert:
+- Z-Axis Direction Invert:
+- A-Axis Direction Invert:
+- B-Axis Direction Invert:
+
+- Homing Feedrate: 500
+
+- X-Axis Sensor Pull-Off: 5.000000
+- Y-Axis Sensor Pull-Off: 5.000000
+- Z-Axis Sensor Pull-Off: 5.000000
+- A-Axis Sensor Pull-Off: 5.000000
+- B-Axis Sensor Pull-Off: 5.000000
+
+- X-Axis Position After Homing: 0.000000
+- Y-Axis Position After Homing: 0.000000
+- Z-Axis Position After Homing: 0.000000
+- A-Axis Position After Homing: 0.000000
+- B-Axis Position After Homing: 0.000000
+
+- Request Home on startup:
+- Request Home after E-Stop press:
+
+==========Spindle Settings==========
+- Encoder (Pulses per revolution): 100
+
+- Spindle Control Method: VFD (0~10v)
+- Spindle RPM at 10 volts: 12000
+
+- Spin UP delay (milliseconds): 0
+- Spin DOWN delay (milliseconds): 0
+
+==========Lubrication Settings==========
+- Lubricate after: 0(hr) & 10(min)
+- Lubricate for: 0(min) & 3(sec)
+
+==========Tool Changer==========
+- Tool changer in use: 1: Manual Tool Change
+
+- Tool setter air blast time (ms): 0
+
+
+=============X-Axis=============
+- Motor: Distance per revolution: 5.300000
+- Drive: Pulses per revolution: 400.000000
+- Maximum Feedrate: 3000.000000
+- Acceleration: 300.000000
+- Travel Minimum: 0.000000
+- Travel Maximum: 1500.006103
+- Backlash: 0.000000
+- Direction Invert: Ticked
+
+
+=============Y-Axis=============
+- Motor: Distance per revolution: 5.300000
+- Drive: Pulses per revolution: 400.000000
+- Maximum Feedrate: 3000.000000
+- Acceleration: 300.000000
+- Travel Minimum: 0.000000
+- Travel Maximum: 3000.012207
+- Backlash: 0.000000
+- Direction Invert: Ticked
+
+
+=============Z-Axis=============
+- Motor: Distance per revolution: 2.500000
+- Drive: Pulses per revolution: 400.000000
+- Maximum Feedrate: 1000.000000
+- Acceleration: 300.000000
+- Travel Minimum: -200.000000
+- Travel Maximum: 0.000000
+- Backlash: 0.000000
+- Direction Invert: Ticked
+
+
+=============A-Axis=============
+- Slaved to X axis
+- Direction Invert:
+
+
+=============B-Axis=============
+- Slaved to Y axis
+- Direction Invert:
+
+==========Auto Tool Zero Settings==========
+- Auto tool zero: Disabled
+
+==========Multi Head Settings==========
+
+- Dry Run: Disabled
+
+- Multi Spindle-1 (T101): Disabled
+
+- Multi Spindle-2 (T102): Disabled
+
+- Multi Spindle-3 (T103): Disabled
+
+- Multi Spindle-4 (T104): Disabled
+
+- Laser Engraving/Cutting (T111): Disabled
+
+- Plasma Torch (T112): Disabled
+
+- Oxy Torch (T113): Disabled
+
+- WaterJet (T114): Disabled
+
+- Scribe Tool (T115): Disabled
+
+- Pen 1 (T116): Disabled
+
+- Pen 2 (T117): Disabled
+
+- Camera (T118): Disabled
+
+==========INPUTS==========
+EStop: EStop, Invert:  No
+Encoder: Signal - A, Invert:  No
+Encoder: Signal - B, Invert:  No
+Encoder: Index, Invert:  No
+MPG: Dial Signal - A, Invert:  No
+MPG: Dial Signal - B, Invert:  No
+MPG: Select X, Invert:  No
+MPG: Select Y, Invert:  No
+MPG: Select Z, Invert:  No
+MPG: Select A, Invert:  No
+MPG: Select B, Invert:  No
+MPG: Resolution 1, Invert:  No
+MPG: Resolution 2, Invert:  No
+MPG: Resolution 3, Invert:  No
+Analog: Input 1, Invert: 
+Analog: Input 2, Invert: 
+Input 2: Aux Output 1 - Toggle, Invert:  No
+Input 22: Y - Home Sensor, Invert:  No
+Input 23: Z - Home Sensor, Invert:  No
+Input 24: X - Home Sensor, Invert:  No
+
+==========OUTPUTS==========
+Spindle: CW, Invert:  No
+Spindle: CCW, Invert:  No
+Output 1: Auxiliary 1, Invert:  No
+
+==========TOOLS DATA==========
+Tool-1, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-2, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-3, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-4, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-5, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-6, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-7, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-8, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-9, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-10, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-11, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-12, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-13, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-14, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-15, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-16, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-17, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-18, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-19, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-20, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-21, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-22, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-23, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-24, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-25, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-26, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-27, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-28, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-29, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-30, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-31, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-32, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-33, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-34, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-35, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-36, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-37, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-38, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-39, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-40, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-41, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-42, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-43, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-44, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-45, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-46, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-47, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-48, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-49, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-50, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-51, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-52, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-53, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-54, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-55, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-56, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-57, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-58, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-59, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-60, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-61, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-62, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-63, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-64, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-65, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-66, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-67, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-68, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-69, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-70, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-71, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-72, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-73, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-74, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-75, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-76, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-77, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-78, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-79, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-80, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-81, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-82, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-83, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-84, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-85, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-86, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-87, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-88, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-89, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-90, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-91, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-92, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-93, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-94, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-95, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-96, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-97, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-98, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-99, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-100, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-101, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-102, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-103, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+Tool-104, Slot: , , Z Offset: 0.000000, Tool Dia: 0.000000, Tool Dia wear 0.000000
+
+- Workoffset - G54: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
+
+- Workoffset - G55: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
+
+- Workoffset - G56: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
+
+- Workoffset - G57: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
+
+- Workoffset - G58: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
+
+- Workoffset - G59: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
+
+- Parking: 
+- X: 0.000000
+- Y: 0.000000
+- Z: 0.000000
